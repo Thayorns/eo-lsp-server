@@ -40,7 +40,6 @@ describe("IndentationLexer", () => {
             expect(lexer.vocabulary).toBeInstanceOf(VocabularyImpl);
             expect(lexer.vocabulary).toEqual(EoLexer.VOCABULARY);
         });
-
     });
 
     describe("lookAhead", () => {
